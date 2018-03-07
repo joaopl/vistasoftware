@@ -1,0 +1,153 @@
+#banner-home {
+	display: flex;
+	align-items: center;
+	margin-top: 2rem;
+}
+
+#destaquessale{
+
+	.destaque{
+		text-align: center;
+		h2, a{
+			color: #455a64;
+		}
+	}
+
+	.locacao{
+		text-align: center;
+		h2{
+			color: #455a64;
+			margin-top: 2rem;
+		}
+
+		a{
+			color: #455a64;
+		}
+	}
+
+	.flex-3{
+		position: relative;
+		background: #fff;
+		border-radius: 5px;
+		box-shadow: 0 0 16px rgba(0,0,0,.5);
+		-moz-box-shadow: 0 0 16px rgba(0,0,0,.5);
+		-webkit-box-shadow: 0 0 16px rgba(0,0,0,.5);
+
+		.image{
+			position: absolute;
+			top: 45%;
+			left: 15%;
+			display: flex;
+
+			.icon-arrow-left, .icon-arrow-right, .icon-heart, .icon-balanca{
+				background: #689f38;
+				cursor: pointer;
+				border-radius: 50%;
+				margin: 0 10px;
+				width: 40px;
+				align-items: center;
+				display: flex;
+				justify-content: center;
+				color: #fff;
+				&:hover{
+					background: var(--green_h);
+					text-decoration: none;
+					transition: box-shadow .4s ease;
+				}
+			}
+		}
+		&:hover{
+			box-shadow: 0 0 36px rgba(0,0,0,.5);
+			-moz-box-shadow: 0 0 36px rgba(0,0,0,.5);
+			-webkit-box-shadow: 0 0 36px rgba(0,0,0,.5);
+			transition: box-shadow .4s ease;
+		}
+	}
+
+
+	.desc{
+		h3{
+			margin: 2rem;
+			font-size: 1.2rem;
+			text-align: center;
+			color: #455a64;
+		}
+
+		p{
+			margin: 15px 0;
+			color: #455a64;
+		}
+	}
+}
+
+#anuncio{
+	display: flex;
+	justify-content: center;
+	.icon-facebook, .icon-twitter{
+		background: #689f38;
+		cursor: pointer;
+		border-radius: 5px;
+		align-items: center;
+		display: flex;
+		justify-content: center;
+		color: #fff;
+		height: 35px;
+		margin-right: 15px;
+		&:hover{
+			background: var(--green_h);
+			text-decoration: none;
+			transition: box-shadow .4s ease;
+		}
+	}
+}
+
+.site-footer{
+
+	.flex-4{
+		display: flex;
+		flex-direction: column;
+	}
+	.menu{
+		h2{
+			color: #455a64;
+			font-size: 1rem;
+			margin-bottom: 1rem;
+		}
+		a{
+			color: #455a64;
+			font-size: 1rem;
+			margin: 5px 0;
+			margin-left: 20px;
+			&:hover{
+				text-decoration: none;
+				color: var(--blue_h);
+				transition: box-shadow .4s ease;
+			}
+		}
+		ul{
+			list-style-type: none;
+		}
+		li{
+			margin: 10px 0;
+		}
+	}
+	.horarios{
+		h3{
+			color: #455a64;
+			font-size: 1rem;
+			margin-bottom: 1rem;
+		}
+		p{
+			color: #455a64;
+			font-size: 1rem;
+			margin: 5px 0;
+			margin-left: 20px;
+		}
+		spam{
+			font-weight: bold;
+		}
+	}
+	.links{
+		
+	}
+}

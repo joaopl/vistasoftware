@@ -1,0 +1,86 @@
+/* 
+    Created on : 05/03/2018, 22:10:45
+    Author     : João Paulo
+*/
+
+@font-face {
+  font-family: "vistasoftware";
+  src:url("fonts/vistasoftware.eot");
+  src:url("fonts/vistasoftware.eot?#iefix") format("embedded-opentype"),
+    url("fonts/vistasoftware.woff") format("woff"),
+    url("fonts/vistasoftware.ttf") format("truetype"),
+    url("fonts/vistasoftware.svg#vistasoftware") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "vistasoftware" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "vistasoftware" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    margin: 0 10px;
+  }
+
+  .icon-notext{
+    top: 0;
+    margin-right: 0;
+  }
+
+.icon-location:before {
+  content: "\62";
+}
+.icon-sale:before {
+  content: "\63";
+}
+.icon-value:before {
+  content: "\65";
+}
+.icon-office:before {
+  content: "\64";
+}
+.icon-facebook:before {
+  content: "\61";
+}
+.icon-twitter:before {
+  content: "\66";
+}
+.icon-mouse:before {
+  content: "\67";
+}
+.icon-phone:before {
+  content: "\68";
+}
+.icon-heart:before {
+  content: "\69";
+}
+.icon-balanca:before {
+  content: "\6a";
+}
+.icon-arrow-left:before {
+  content: "\6b";
+}
+.icon-arrow-right:before {
+  content: "\6c";
+}
