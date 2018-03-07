@@ -84,3 +84,7 @@
 .icon-arrow-right:before {
   content: "\6c";
 }
+
+.icon-search:before {
+  content: "\6d";
+}

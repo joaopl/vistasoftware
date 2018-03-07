@@ -1,19 +1,49 @@
 #banner-home {
 	display: flex;
 	align-items: center;
-	margin-top: 2rem;
+	justify-content: center;
+
+	img{
+		display: flex;
+		align-items: center;
+		padding: 2rem;
+		margin: 0 auto;
+	}
+
+	.menu{
+		h2{
+			color: #455a64;
+			font-size: 1rem;
+			margin-bottom: 1rem;
+		}
+		a{
+			color: #455a64;
+			font-size: 1rem;
+			margin: 5px 0;
+			margin-left: 20px;
+			&:hover{
+				text-decoration: none;
+				color: var(--blue_h);
+				transition: box-shadow .4s ease;
+			}
+		}
+		ul{
+			list-style-type: none;
+			display: flex;
+		}
+		li{
+			margin: 10px 0;
+		}
+		input{
+			margin: 0 15px;
+		}
+	}
 }
 
 #destaquessale{
 
-	.destaque{
-		text-align: center;
-		h2, a{
-			color: #455a64;
-		}
-	}
 
-	.locacao{
+	.destaque{
 		text-align: center;
 		h2{
 			color: #455a64;
@@ -143,7 +173,7 @@
 			margin: 5px 0;
 			margin-left: 20px;
 		}
-		spam{
+		span{
 			font-weight: bold;
 		}
 	}

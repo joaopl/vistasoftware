@@ -1,18 +1,39 @@
 #banner-home {
   display: flex;
   align-items: center;
-  margin-top: 2rem; }
+  justify-content: center; }
+  #banner-home img {
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    margin: 0 auto; }
+  #banner-home .menu h2 {
+    color: #455a64;
+    font-size: 1rem;
+    margin-bottom: 1rem; }
+  #banner-home .menu a {
+    color: #455a64;
+    font-size: 1rem;
+    margin: 5px 0;
+    margin-left: 20px; }
+    #banner-home .menu a:hover {
+      text-decoration: none;
+      color: var(--blue_h);
+      transition: box-shadow .4s ease; }
+  #banner-home .menu ul {
+    list-style-type: none;
+    display: flex; }
+  #banner-home .menu li {
+    margin: 10px 0; }
+  #banner-home .menu input {
+    margin: 0 15px; }
 
 #destaquessale .destaque {
   text-align: center; }
-  #destaquessale .destaque h2, #destaquessale .destaque a {
-    color: #455a64; }
-#destaquessale .locacao {
-  text-align: center; }
-  #destaquessale .locacao h2 {
+  #destaquessale .destaque h2 {
     color: #455a64;
     margin-top: 2rem; }
-  #destaquessale .locacao a {
+  #destaquessale .destaque a {
     color: #455a64; }
 #destaquessale .flex-3 {
   position: relative;
@@ -101,7 +122,7 @@
   font-size: 1rem;
   margin: 5px 0;
   margin-left: 20px; }
-.site-footer .horarios spam {
+.site-footer .horarios span {
   font-weight: bold; }
 
 /*# sourceMappingURL=style.css.map */
