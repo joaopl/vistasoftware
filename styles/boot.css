@@ -309,7 +309,7 @@ FLEXBOX
 }
 
 .flex .flex-3{
-    flex-basis: calc(33.33% - 30px) !important;
+    flex-basis: calc(33.33% - 30px);
     margin: 15px;
 }
 

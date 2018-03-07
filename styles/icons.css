@@ -88,3 +88,17 @@
 .icon-search:before {
   content: "\6d";
 }
+
+.icon-info:before {
+  content: "\6e";
+}
+
+.icon-cross-circle:before {
+  content: "\6f";
+}
+.icon-users:before {
+  content: "\70";
+}
+.icon-paper:before {
+  content: "\71";
+}

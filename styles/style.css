@@ -93,36 +93,127 @@
       text-decoration: none;
       transition: box-shadow .4s ease; }
 
-.site-footer .flex-4 {
-  display: flex;
-  flex-direction: column; }
-.site-footer .menu h2 {
+.site-footer .flex {
+  height: 5px;
+  box-shadow: 1px 3px 8px #888888; }
+  .site-footer .flex .flex-4 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem; }
+  .site-footer .flex .menu h2 {
+    color: #455a64;
+    font-size: 1rem;
+    margin-bottom: 1rem; }
+  .site-footer .flex .menu a {
+    color: #455a64;
+    font-size: 1rem;
+    margin: 5px 0;
+    margin-left: 20px;
+    font-weight: 400; }
+    .site-footer .flex .menu a:hover {
+      text-decoration: none;
+      color: var(--blue_h);
+      transition: box-shadow .4s ease; }
+  .site-footer .flex .menu ul {
+    list-style-type: none; }
+  .site-footer .flex .menu li {
+    margin: 10px 0; }
+  .site-footer .flex .horarios h3 {
+    color: #455a64;
+    font-size: 1rem;
+    margin-bottom: 1rem; }
+  .site-footer .flex .horarios p {
+    color: #455a64;
+    font-size: 1rem;
+    margin: 5px 0;
+    margin-left: 20px; }
+  .site-footer .flex .horarios span {
+    font-weight: bold; }
+  .site-footer .flex .links p {
+    margin: 10px 0; }
+    .site-footer .flex .links p:before {
+      background: var(--green);
+      cursor: pointer;
+      border-radius: 5px;
+      color: #fff;
+      height: 35px;
+      margin-right: 15px;
+      padding: 10px; }
+  .site-footer .flex .links a {
+    color: var(--blue);
+    font-size: 1rem; }
+    .site-footer .flex .links a:hover {
+      text-decoration: none;
+      color: var(--blue_h);
+      transition: box-shadow .4s ease; }
+  .site-footer .flex .logo {
+    align-items: center; }
+    .site-footer .flex .logo p {
+      color: var(--green);
+      margin-top: 2rem; }
+      .site-footer .flex .logo p:before {
+        background: var(--green);
+        cursor: pointer;
+        border-radius: 50%;
+        color: #fff;
+        height: 35px;
+        margin-right: 15px;
+        padding: 10px; }
+
+#destaqueimovel .galeria-imovel {
+  position: relative;
+  top: 0;
+  right: 0; }
+  #destaqueimovel .galeria-imovel button {
+    position: absolute;
+    top: 80%;
+    right: 10%; }
+  #destaqueimovel .galeria-imovel img {
+    border-radius: 10px;
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0 0 16px rgba(0, 0, 0, 0.5); }
+#destaqueimovel .embed-container {
+  margin-top: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 0 16px rgba(0, 0, 0, 0.5); }
+#destaqueimovel .desc-imovel h2 {
+  color: #455a64;
+  font-size: 2rem;
+  margin-bottom: 1rem; }
+#destaqueimovel .desc-imovel h3 {
   color: #455a64;
   font-size: 1rem;
   margin-bottom: 1rem; }
-.site-footer .menu a {
-  color: #455a64;
-  font-size: 1rem;
-  margin: 5px 0;
-  margin-left: 20px; }
-  .site-footer .menu a:hover {
-    text-decoration: none;
-    color: var(--blue_h);
-    transition: box-shadow .4s ease; }
-.site-footer .menu ul {
-  list-style-type: none; }
-.site-footer .menu li {
-  margin: 10px 0; }
-.site-footer .horarios h3 {
+#destaqueimovel .desc-imovel p {
   color: #455a64;
   font-size: 1rem;
   margin-bottom: 1rem; }
-.site-footer .horarios p {
+#destaqueimovel .desc-imovel a {
+  color: var(--blue); }
+  #destaqueimovel .desc-imovel a:before {
+    margin: 0; }
+#destaqueimovel .desc-imovel .flex-2 {
+  margin: 10px; }
+#destaqueimovel .detalhes-imovel h3 {
   color: #455a64;
   font-size: 1rem;
-  margin: 5px 0;
-  margin-left: 20px; }
-.site-footer .horarios span {
-  font-weight: bold; }
+  margin-bottom: 1rem;
+  margin-top: 3rem; }
+#destaqueimovel .detalhes-imovel p {
+  color: #455a64;
+  font-size: 1rem;
+  margin-bottom: 1rem; }
+
+@media (max-width: 52em) {
+  .flex-3 {
+    flex-basis: 100% !important; }
+    .flex-3 .image {
+      top: 40% !important; } }
+@media (max-width: 42em) {
+  .flex-3 {
+    flex-basis: 100% !important; } }
 
 /*# sourceMappingURL=style.css.map */
