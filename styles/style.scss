@@ -63,10 +63,20 @@
 		-moz-box-shadow: 0 0 16px rgba(0,0,0,.5);
 		-webkit-box-shadow: 0 0 16px rgba(0,0,0,.5);
 
+		.btn-slide-left{
+			transform: translateX(-100%);
+			margin-right: 20px;
+		}
+
+		.btn-slide-right{
+			transform: translateX(100%);
+			margin-left: 40px !important;
+		}
+
 		.image{
 			position: absolute;
 			top: 45%;
-			left: 15%;
+			left: 4%;
 			display: flex;
 
 			.icon-arrow-left, .icon-arrow-right, .icon-heart, .icon-balanca{
@@ -92,6 +102,10 @@
 			-webkit-box-shadow: 0 0 36px rgba(0,0,0,.5);
 			transition: box-shadow .4s ease;
 		}
+
+	}
+	.last{
+		display: none;
 	}
 
 
@@ -234,8 +248,8 @@
 
 		button{
 			position: absolute;
-			top: 80%;
-			right: 10%;
+			top: 85%;
+			right: 5%;
 		}
 
 		img{
@@ -281,7 +295,13 @@
 		}
 
 		.flex-2{
-			margin: 10px
+			margin: 10px;
+			flex-basis: calc(50% - 70px);
+
+			button{
+				width: 100%;
+				margin: 10px 0;
+			}
 		}
 	}
 
