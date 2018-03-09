@@ -15,16 +15,18 @@
 
 	<!--Main Header-->
 	<section id="banner-home">
+		<div class="vista_mobile_nav abrir-menu"><span>☰</span><span>MENU</span></div>
 		<div class="container">
 			<header>
 				<a href="#"><img src="../img/logo.png"></a>
-				<nav class="menu">
-					<ul class="">
-						<li><a href="#">Página inicial</a></li>
-						<li><a href="#">Quem somos</a></li>
-						<li><a href="#">Imóveis para locação</a></li>
-						<li><a href="#">Imóveis à venda</a></li>
-						<li><a href="#">Entre em contato</a></li>
+
+				<nav class="menu_vista">
+					<ul class="sub">
+						<li class="li"><a href="#">Página inicial</a></li>
+						<li class="li"><a href="#">Quem somos</a></li>
+						<li class="li"><a href="#">Imóveis para locação</a></li>
+						<li class="li"><a href="#">Imóveis à venda</a></li>
+						<li class="li"><a href="#">Entre em contato</a></li>
 						<form role="search" method="get" class="search-form" action="">
 							<input type="search" class="btn btn-blue-out radius transition btn-small icon-search" placeholder="Busca de imóveis"  value="">
 						</form>
@@ -41,6 +43,20 @@
 				<div class="galeria-imovel">
 					<img title="" alt="" src="../img/ficha3.jpg"/>
 					<button class="btn btn-green radius btn-small">Galeria de imagens</button>
+
+
+					<div class="flex arrow">
+						<div class="flex-3">
+							<a class="btn btn-green rounded transition btn-small btn-galeria-left icon-arrow-left"></a>
+						</div>
+						<div class="flex-3">
+							<p class="qtd-fotos">Foto 02/15</p>
+						</div>
+						<div class="flex-3">
+							<a class="btn btn-green rounded transition btn-small btn-galeria-right icon-arrow-right"></a>
+						</div>
+					</div>
+					
 				</div>
 
 				<div class="embed-container">
@@ -87,7 +103,7 @@
 	</section>
 
 	<!--Section Destaques VENDA-->
-	<section id="destaquessale" class="container">
+	<section id="destaquessale" class="container page-imovel-dest">
 		<div class="flex">
 			<div class="flex-1 destaque">
 				<h2>Imóveis semelhantes</h2>
@@ -98,12 +114,17 @@
 
 		<div class="flex">
 			<article class="flex-3">
-				<img title="" alt="" src="../img/ficha1.jpg"/>
-				<div class="imovel image">
-					<h2><a class="btn btn-green radius transition btn-small" title="Detalhes de " href="pages/imovel.html">Veja os detalhes</a></h2>
-					<a href="" class=" icon-balanca "></a>
-					<a href="" class=" icon-heart "></a>
-				</div>
+				<header class="realty_item_header">
+					<a href="" title=""><img title="" alt="" src="../img/ficha1.jpg"/></a>
+
+					<h1>
+						<a class="btn btn-green rounded transition btn-small btn-slide-left icon-arrow-left"></a>
+						<a class="btn btn-green radius transition btn-small" title=" " href="pages/imovel.html">Veja os detalhes</a>
+						<a href="" class="btn btn-green rounded transition btn-small icon-balanca"></a>
+						<a href="" class="btn btn-green rounded transition btn-small icon-heart "></a>
+					</h1>
+					
+				</header>
 
 				<div class="imovel desc">
 					<h3>Residencial Altos da Alvorada</h3>
@@ -115,12 +136,16 @@
 			</article>
 
 			<article class="flex-3">
-				<img title="" alt="" src="../img/ficha2.jpg"/>
-				<div class="imovel image">
-					<h2><a class="btn btn-green radius transition btn-small" title="Detalhes de " href="">Veja os detalhes</a></h2>
-					<a href="" class=" icon-balanca "></a>
-					<a href="" class=" icon-heart "></a>
-				</div>
+				<header class="realty_item_header">
+					<a href="" title=""><img title="" alt="" src="../img/ficha2.jpg"/></a>
+
+					<h1>
+						<a class="btn btn-green radius transition btn-small" title=" " href="pages/imovel.html">Veja os detalhes</a>
+						<a href="" class="btn btn-green rounded transition btn-small icon-balanca"></a>
+						<a href="" class="btn btn-green rounded transition btn-small icon-heart "></a>
+					</h1>
+					
+				</header>
 
 				<div class="imovel desc">
 					<h3>Residencial Altos da Alvorada</h3>
@@ -132,12 +157,43 @@
 			</article>
 
 			<article class="flex-3">
-				<img title="" alt="" src="../img/ficha3.jpg"/>
-				<div class="imovel image">
-					<h2><a class="btn btn-green radius transition btn-small" title="Detalhes de " href="">Veja os detalhes</a></h2>
-					<a href="" class=" icon-balanca "></a>
-					<a href="" class=" icon-heart "></a>
+				<header class="realty_item_header">
+					<a href="" title=""><img title="" alt="" src="../img/ficha3.jpg"/></a>
+
+					<h1>
+						<a class="btn btn-green radius transition btn-small" title=" " href="pages/imovel.html">Veja os detalhes</a>
+						<a href="" class="btn btn-green rounded transition btn-small icon-balanca"></a>
+						<a href="" class="btn btn-green rounded transition btn-small icon-heart "></a>
+						<a class="btn btn-green rounded transition btn-small btn-slide-right icon-arrow-right"></a>
+					</h1>
+					
+				</header>
+
+				<div class="imovel desc">
+					<h3>Residencial Altos da Alvorada</h3>
+					<p class="icon-office">Apartamento</p>
+					<p class="icon-sale">Venda </p>
+					<p class="icon-location">Canasvieiras, Florianópolis, SC </p>
+					<p class="icon-value">R$ 280.000,00 </p>
 				</div>
+			</article>
+
+			<div class="flex-1">
+				<a class="btn btn-green radius transition btn-mob-dest" title=" " href="">Carregar mais 02 destaques</a>
+			</div>
+
+			<article class="flex-3 last">
+				<header class="realty_item_header">
+					<a href="" title=""><img title="" alt="" src="../img/ficha1.jpg"/></a>
+
+					<h	1>
+						<a class="btn btn-green rounded transition btn-small btn-slide-left icon-arrow-left"></a>
+						<a class="btn btn-green radius transition btn-small" title=" " href="pages/imovel.html">Veja os detalhes</a>
+						<a href="" class="btn btn-green rounded transition btn-small icon-balanca"></a>
+						<a href="" class="btn btn-green rounded transition btn-small icon-heart "></a>
+					</h1>
+					
+				</header>
 
 				<div class="imovel desc">
 					<h3>Residencial Altos da Alvorada</h3>
@@ -148,6 +204,9 @@
 				</div>
 			</article>
 		</div>
+
+
+
 	</section>
 	<!--END Section Destaques VENDA-->
 
