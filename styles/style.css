@@ -41,6 +41,8 @@
       list-style-type: none;
       display: flex; }
     #banner-home .menu_vista li {
+      display: inline-block;
+      position: relative;
       margin: 10px 0; }
     #banner-home .menu_vista input {
       margin: 0 15px; }
@@ -304,6 +306,15 @@
 
   .menu_vista {
     display: none !important; }
+    .menu_vista sub {
+      position: initial;
+      display: block;
+      width: auto; }
+    .menu_vista li, .menu_vista a {
+      display: block;
+      width: 100%; }
+    .menu_vista ul {
+      display: block !important; }
 
   #banner-home {
     flex-flow: column-reverse; } }

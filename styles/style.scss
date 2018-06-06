@@ -31,7 +31,6 @@
 	}
 
 	.menu_vista{
-
 		display: block;
 		width: 100%;
 
@@ -56,14 +55,14 @@
 			display: flex;
 		}
 		li{
+			display: inline-block;
+			position: relative;
 			margin: 10px 0;
 		}
 		input{
 			margin: 0 15px;
 		}
 	}
-
-
 }
 
 #destaquessale{
@@ -128,7 +127,6 @@
 			transition: box-shadow .4s ease;
 		}
 	}
-
 
 	.last{
 		display: none;
@@ -471,6 +469,21 @@
 
 	.menu_vista {
 		display: none !important;
+
+		sub{
+			position: initial;
+			display: block;
+			width: auto;
+		}
+
+		li,a{
+			display: block;
+			width: 100%;
+		}
+
+		ul{
+			display: block !important;
+		}
 	}
 
 	#banner-home {

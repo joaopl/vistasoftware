@@ -2,12 +2,9 @@
 jQuery(document).ready(function($) {
 		
 
-	$('.vista_mobile_nav').click(function () {
-	       $('.menu_vista').slideDown( );
+	$('.abrir-menu').click(function () {
+	       $('.menu_vista').slideToggle();
 	   });
-	
-	
-
 
 	$(".icon-balanca").click(function (event) {
 	  alert("Você clicou no cabeçalho!");

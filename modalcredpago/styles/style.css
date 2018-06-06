@@ -1,0 +1,104 @@
+.header h2{
+  color: #036ec1;
+  font-size: 1.2em;
+  font-weight: 300;
+}
+
+.header a{
+  text-decoration: none;
+  font-weight: bold;
+  color: #036ec1;
+}
+
+.modalDialog {
+  position: fixed;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0,0,0,0.8);
+        z-index: 99999;
+        opacity:0;
+        -webkit-transition: opacity 400ms ease-in;
+        -moz-transition: opacity 400ms ease-in;
+        transition: opacity 400ms ease-in;
+        pointer-events: none;
+}
+
+.modalDialog:target {
+  opacity:1;
+  pointer-events: auto;
+}
+
+.modalDialog > div {
+      display: block;
+      width: 650px;
+      max-width: 90%;
+      margin: 5% auto 0 auto;
+      background: #fff;
+      position: relative;
+      padding: 30px;
+      min-height: 450px;
+}
+
+.closeModal {
+  color: #ccc;
+  position: absolute;
+  right: 2%;
+  text-align: center;
+  top: 7%;
+  width: 24px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.closeModal:after {
+  content: "\d7";
+  font-size: 1.8em;
+}
+
+.formulario{
+  width: 35%;
+  float: left;
+}
+
+.iframe{
+  width: 65%;
+  float: right;
+  text-align: right;
+}
+
+.cp_contact_modal_form{
+    padding-bottom: 5px;
+}
+
+.cp_contact_modal_form label{
+    display: block;
+    margin-bottom: 15px;
+}
+
+.cp_contact_modal_legend{
+    font-size: 0.875em;
+    color: #888;
+    font-variant: small-caps;
+    display: block;
+    margin-bottom: 5px;
+   
+}
+
+.cp_contact_modal_form input{
+    font-size: 0.7em;
+    padding: 10px;
+    border: 1px solid #ccc;
+    resize: none;
+    width: 80%;
+}
+
+.cp_contact_modal_form button{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 0.8em;
+    background: #036ec1;
+    color: #fff;
+    border-radius: 5px;
+}
